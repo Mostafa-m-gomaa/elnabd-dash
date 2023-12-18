@@ -1,0 +1,37 @@
+.qasima .container {
+  color: white;
+  padding: 15px 0;
+}
+.qasima .container button {
+  background-color: orangered;
+  color: white;
+  padding: 10px 0;
+  width: 30%;
+  margin: auto;
+}
+.qasima .container .in-qasima {
+  color: black;
+  padding: 20px 0;
+  border: 4px solid;
+  border-radius: 8px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.qasima .container .in-qasima img {
+  max-width: 25%;
+  min-width: 25%;
+  max-height: 130px;
+  min-height: 130px;
+}
+.qasima .container .in-qasima div {
+  width: 28%;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+}/*# sourceMappingURL=qasima.css.map */

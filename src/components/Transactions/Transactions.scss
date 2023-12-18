@@ -1,0 +1,50 @@
+.trans{
+    width: 95%;
+    h2{
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+.hori{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    .period{
+        width: 23%;
+        border: 1px solid;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+.hori-search{
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 20px 0;
+    border: 2px solid var(--clr-pumpkin);
+    border-radius: 10px;
+    gap: 20px;
+    width: 60;
+    color: white;
+    input{
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+    
+    }
+    button{
+        background-color: var(--clr-pumpkin);
+        color: white;
+        border-radius: 5px;
+        padding: 4px 10px;
+    }
+}
+}

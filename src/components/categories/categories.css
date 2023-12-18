@@ -1,0 +1,207 @@
+.categs {
+  width: 95%;
+  margin: auto;
+  color: white;
+}
+.categs .confirm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.781);
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 120;
+  width: 50%;
+}
+.categs .confirm .btns {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+}
+.categs .confirm .btns button {
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: white;
+}
+.categs .confirm .btns .yes {
+  background-color: red;
+}
+.categs .confirm .btns .no {
+  background-color: green;
+}
+.categs .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.categs .container .add {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.categs .container .add button {
+  background-color: var(--clr-pumpkin);
+  color: white;
+}
+.categs .container .add form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  margin: auto;
+}
+.categs .container .add form .photos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 90%;
+  margin: auto;
+}
+.categs .container .add form .photos img {
+  max-width: 20%;
+  min-width: 20%;
+  min-height: 100px;
+  max-height: 100px;
+}
+.categs .container .add form label {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.categs .container .add form label input {
+  width: 60%;
+}
+.categs .add-categ {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.categs .add-categ button {
+  background-color: var(--clr-pumpkin);
+  color: white;
+}
+.categs .add-categ form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  margin: auto;
+}
+.categs .add-categ form label {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.categs .add-categ form label input {
+  width: 60%;
+}
+.categs .all-categs {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.575);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.categs .all-categs label {
+  width: 60%;
+  background-color: white;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+.categs .all-categs label button {
+  width: 30%;
+  background-color: var(--clr-pumpkin);
+  color: white;
+  margin: auto;
+}
+.categs .all-categs label input {
+  width: 75%;
+  margin: auto;
+}
+.categs .all-categs .in-all-categ {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.categs .all-categs .in-all-categ .user-card {
+  width: 28%;
+  background-color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.categs .all-categs .in-all-categ .user-card .punished {
+  background-color: red;
+  color: white;
+  padding: 2px 12px;
+  border-radius: 6px;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.categs .all-categs .in-all-categ .user-card .btns {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.categs .all-categs .in-all-categ .user-card .btns button {
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+  font-size: 12px;
+}
+.categs .all-categs .in-all-categ .user-card .btns a {
+  background-color: rgb(35, 134, 68);
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+  font-size: 12px;
+}
+.categs .all-categs .pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+}
+.categs .all-categs .pagination input {
+  width: 50px;
+  text-align: center;
+}
+.categs .all-categs .pagination button {
+  width: 30px;
+  transition: 0.2s;
+}
+.categs .all-categs .pagination button:hover {
+  background-color: black;
+}/*# sourceMappingURL=categories.css.map */
